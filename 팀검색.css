@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  
+  .team-card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .header {
+    text-align: center; /
+  }
+  
+  #transferOptions {
+    text-align: center;
+    margin-top: 20px; 
+  }
+  
+  #searchTitle {
+    font-size: 20px;
+    margin-bottom: 10px; 
+  }
+
+  #searchTeamButton {
+    background-color: #27ae60; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; 
+  }
+  
+  #searchTeamButton:hover {
+    background-color: #219653; /
+  }
+  

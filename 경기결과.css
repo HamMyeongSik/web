@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #192a4d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .title {
+    color: #ffc107;
+    font-size: 36px;
+  }
+  
+  .banners {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .banner {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .banner a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .banner p {
+    margin: 0;
+    padding: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .banner:hover p {
+    transform: scale(1.1);
+  }
+  
+  .results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .match-card {
+    border: 2px solid #ffc107;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #1f4068;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    animation: fadeInUp 0.5s ease-in-out;
+  }
+  
+  .match-date {
+    font-size: 18px;
+    color: #ffc107;
+  }
+  
+  .match-teams {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .match-result {
+    font-size: 28px;
+    color: #fff;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

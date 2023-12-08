@@ -1,0 +1,12 @@
+#transferOptions {
+    text-align: center;
+}
+
+#buyPlayerButton {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
